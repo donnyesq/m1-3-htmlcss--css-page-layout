@@ -2,6 +2,47 @@ body {
   margin: 0;
 }
 
+h1 {
+  margin-right: auto;
+}
+
+.mobile-nav-button {
+  display: none;
+}
+
 .mobile-nav-button img {
   width: 18px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 30px;
+}
+
+.desktop-nav ul li:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav-button {
+    display: flex;
+    align-self: flex-end;
+  }
 }

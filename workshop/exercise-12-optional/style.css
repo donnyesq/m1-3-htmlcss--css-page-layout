@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  text-align: center;
+  color: #eaeaea;
+  background-color: #363636;
+  padding: 10px 0;
+}
+
+main {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  min-height: calc(100vh - 76px);
+}
+
+main div {
+  padding-top: 40vh;
+}
+
+footer {
+  text-align: center;
+  color: #eaeaea;
+  background-color: #363636;
+  padding: 10px 0;
+}

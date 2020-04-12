@@ -1,0 +1,65 @@
+div.container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button.btn {
+  font-family: sans-serif;
+}
+
+button.btn-primary {
+  color: #0069d9;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #0069d9;
+}
+
+button.btn-secondary {
+  color: #5b6268;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #5b6268;
+}
+
+button.btn-success {
+  color: #218838;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #218838;
+}
+
+button.btn-danger {
+  color: #c92332;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #c92332;
+}
+
+button.btn-warning {
+  color: #e0a800;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #e0a800;
+}
+
+button.btn-info {
+  color: #138496;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #138496;
+}
+
+button.btn-light {
+  color: #f8f8f8;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #f8f8f8;
+}
+
+button.btn-dark {
+  color: #23272b;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #23272b;
+}

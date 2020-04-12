@@ -1,49 +1,84 @@
 body {
-    margin: 0;
-    font-family: Poppins, sans-serif;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
 }
 
 .header {
-
+  color: #fff;
+  background-color: dodgerblue;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  font-size: 28px;
+  box-shadow: 0 3px 5px gray;
 }
 
 .registration-form {
-
+  padding: 20px;
+  width: 85%;
+  box-shadow: 1px 1px 5px gray;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding-top: 15px;
 }
 
 .text-field {
-
+  width: 100%;
+  max-width: 400px;
+  padding: 5px;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 1px solid dodgerblue;
+  display: block;
+  box-sizing: border-box;
 }
 
 .radio-label,
 .checkbox-label {
-
+  text-align: left;
+  margin: 10px;
+  margin-left: 0;
 }
 
 label {
-
+  display: block;
+  padding: 5px;
+  text-align: center;
 }
 
 .section {
-
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
 }
 
 .section > label {
-
+  text-align: left;
 }
 
 select {
-
+  margin: 10px;
 }
 
 textarea {
-
+  display: block;
+  background-color: #f5f5f5;
+  width: 100%;
+  border: 1px solid #f5f5f5;
+  min-height: 100px;
+  margin-top: 10px;
 }
 
 .form-button {
-
+  margin: 20px auto;
+  padding: 18px 40px;
+  border: 1px solid dodgerblue;
+  transition: background-color 0.2s ease-in-out;
+  display: block;
 }
 
 .form-button:hover {
-    
+  background-color: dodgerblue;
+  color: #eaeaea;
+  cursor: pointer;
 }

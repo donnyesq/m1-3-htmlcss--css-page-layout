@@ -1,0 +1,81 @@
+div.container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button.btn {
+  font-family: sans-serif;
+}
+
+button.btn-primary {
+  color: #fff;
+  background-color: #0069d9;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0;
+}
+
+button.btn-secondary {
+  color: #fff;
+  background-color: #5b6268;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0;
+}
+
+button.btn-success {
+  color: #fff;
+  background-color: #218838;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0;
+}
+
+button.btn-danger {
+  color: #fff;
+  background-color: #c92332;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0;
+}
+
+button.btn-warning {
+  color: #000;
+  background-color: #e0a800;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0;
+}
+
+button.btn-info {
+  color: #fff;
+  background-color: #138496;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0;
+}
+
+button.btn-light {
+  color: #212529;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0;
+}
+
+button.btn-dark {
+  color: #fff;
+  background-color: #23272b;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0;
+}
+
+button.btn-link {
+  color: #0056b3;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0;
+}

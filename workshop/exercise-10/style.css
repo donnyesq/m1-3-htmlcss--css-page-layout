@@ -9,8 +9,47 @@ body {
   justify-content: center;
 }
 
+@keyframes hello {
+  0% {
+    transform: translate(200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes cool {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2) rotate(300deg);
+  }
+  100% {
+    transform: scale(0.9) rotate(360deg);
+  }
+}
+
 .fast {
+  animation: hello 1s ease-in-out;
 }
 
 .cool {
+  padding: 20px 18px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: dodgerblue;
+  border-radius: 6px;
+  font-size: 18px;
+  box-shadow: 3px 5px 5px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.cool:focus {
+  outline: 0;
+}
+
+.cool:hover {
+  animation: cool 1s ease-in-out;
 }
